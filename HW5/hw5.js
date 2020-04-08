@@ -38,7 +38,7 @@ function checkAge() {
   console.log();
   if (getUserAge.trim() === "") {
     throw new Error("The field is empty! Please enter your age");
-  } else if (isNaN(getUserAge)) {
+  } else if (isNaN(Number(getUserAge))) {
     throw new Error("Age should be a number! Please enter your age");
   } else if (Number(getUserAge) < 14) {
     throw new Error("Yor are not old enough for this movie");
