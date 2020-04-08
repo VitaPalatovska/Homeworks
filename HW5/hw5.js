@@ -32,17 +32,18 @@ try {
 */
 
 //Exercise 3
-/*
+
 function checkAge() {
   let getUserAge = prompt("Please, enter your age", "");
-  if (getUserAge === "") {
+  console.log();
+  if (getUserAge.trim() === "") {
     throw new Error("The field is empty! Please enter your age");
-  } else if (Number(getUserAge) !== Number) {
+  } else if (isNaN(getUserAge)) {
     throw new Error("Age should be a number! Please enter your age");
   } else if (Number(getUserAge) < 14) {
     throw new Error("Yor are not old enough for this movie");
   } else {
-    console.log("You got access movie");
+    alert("You got access movie");
   }
 }
 
@@ -51,4 +52,3 @@ try {
 } catch (err) {
   alert("Error: " + err);
 }
-*/
