@@ -19,7 +19,7 @@ textChildren.forEach((item, index) => {
 */
 
 //Exercise4
-/*
+
 let firstElem = document.getElementById("list").firstElementChild,
   lastElem = document.getElementById("list").lastElementChild,
   secondElem = firstElem.nextElementSibling.innerHTML,
@@ -31,7 +31,6 @@ alert(lastElem.innerHTML);
 alert(secondElem);
 alert(fourthElem);
 alert(fifthElem[2].innerHTML);
-*/
 
 //Exercise5
 /*

@@ -62,7 +62,7 @@ removeListElem();
 */
 
 //Exercise 5
-/*
+
 function btnEvents() {
   let liveBtn = document.getElementById("liveBtn");
   let messageBox = document.querySelector(".message-box");
@@ -79,7 +79,6 @@ function btnEvents() {
   };
 }
 btnEvents();
-*/
 
 //Exercise 6
 /*
@@ -101,6 +100,7 @@ window.addEventListener(
 */
 
 //Exercise 7
+/*
 function getCitiesOfCountry() {
   let country = document.querySelector("#countries"),
     citiesElements = document.querySelectorAll("option"),
@@ -125,3 +125,4 @@ function getCitiesOfCountry() {
   };
 }
 getCitiesOfCountry();
+*/
